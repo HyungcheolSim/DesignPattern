@@ -1,7 +1,7 @@
 package singleton;
 
 public class Singleton {
-    pirvate static Singleton singletonObject;
+    private static Singleton singletonObject;
 
     private Singleton(){}
     public static Singleton getInstance(){
