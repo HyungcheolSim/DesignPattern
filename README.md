@@ -19,5 +19,10 @@ LazyHolder 패턴에서의 장점
 - 역직렬화
 - 리플렉션
 
-## 7/22~23
-Composite, Observer, Strategy 패턴 예시 구현해보기
+## 7/22
+Composite
+- composite 패턴 예시: 파일 디렉토리
+- INPA 예제 따라 구현한 후 더 발전시켜보기.
+
+## 7/23
+, Observer, Strategy 패턴 예시 구현해보기
