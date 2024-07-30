@@ -29,4 +29,9 @@ Observer 패턴 예시 구현
 1. 기본 legacy 코드
 2. interface 를 직접 만들어 구현한 Observer Pattern
 3. 내장 Observer 인터페이스, Observable 클래스를 사용한 Observer Pattern
-4. 대안으로 사용될 수 있는 기술 찾아보고 적용해보기
+
+### 내장 옵저버 객체의 한계
+java.util.Observable 이 클래스이기 때문에 단일 상속의 특징에 있어 문제가 될 가능성이 있다.
+또한 내부의 setChanged() 메서드가 protected로 선언되어 상속한 클래스들만 사용 가능하다는 점도 있다.
+
+결론: 옵저버 패턴을 개발자가 직접 구현해야 한다.
