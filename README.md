@@ -26,3 +26,6 @@ Composite
 
 ## 7/23
 , Observer, Strategy 패턴 예시 구현해보기
+
+## 7/30
+SOLID 원칙 별 예시 만들어보며 이해
