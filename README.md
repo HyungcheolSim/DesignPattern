@@ -24,8 +24,9 @@ Composite
 - composite 패턴 예시: 파일 디렉토리
 - INPA 예제 따라 구현한 후 더 발전시켜보기.
 
-## 7/23
-, Observer, Strategy 패턴 예시 구현해보기
-
 ## 7/30
-SOLID 원칙 별 예시 만들어보며 이해
+Observer 패턴 예시 구현
+1. 기본 legacy 코드
+2. interface 를 직접 만들어 구현한 Observer Pattern
+3. 내장 Observer 인터페이스, Observable 클래스를 사용한 Observer Pattern
+4. 대안으로 사용될 수 있는 기술 찾아보고 적용해보기
