@@ -1,5 +1,7 @@
 package composite;
 
+import java.util.stream.Collectors;
+
 public class Client {
     public static void main(String[] args) {
         //메인 가방 생성
@@ -49,10 +51,17 @@ public class Client {
         client.printPrice(etcBag);
 
         client.printPrice(bag_main);
+        client.printComponents(bag_main);
+        client.printComponents(foodBag);
+        client.printComponents(etcBag);
     }
 
     public void printPrice(ItemComponent bag){
             int result = bag.getPrice();
         System.out.println(STR."\{bag.getName()}의 아이템 총합: \{result} 골드");
+    }
+    public void printComponents(Bag bag){
+             String components = bag.getComponents().stream().map(ItemComponent::getName).collect(Collectors.joining(","));
+        System.out.println(STR."\{bag.getName()}의 내용물 \{components}");
     }
 }
