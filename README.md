@@ -35,3 +35,5 @@ java.util.Observable 이 클래스이기 때문에 단일 상속의 특징에 �
 또한 내부의 setChanged() 메서드가 protected로 선언되어 상속한 클래스들만 사용 가능하다는 점도 있다.
 
 결론: 옵저버 패턴을 개발자가 직접 구현해야 한다.
+
+[Pattern 관련 노션 목록](https://private-records-of-devsim.notion.site/1c576d2b40504039aa6a916a67a57ca2?v=2ce3f259d43e48f79a51bae636521548)
